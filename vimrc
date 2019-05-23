@@ -67,10 +67,3 @@ let g:python_highlight_space_errors = 0
 " ==== Rainbow parentheses
 let g:rainbow_active = 1 
 "set to 0 if you want to enable it later via :RainbowToggle
-
-" ==== YouCompleteMe
-nnoremap <leader>to :YcmCompleter GoTo<CR>
-nnoremap <leader>tol :YcmCompleter GoToDeclaration<CR>
-nnoremap <leader>tod :YcmCompleter GoToDefinition<CR>
-nnoremap <leader>doc :YcmCompleter GetDoc<CR>
-nnoremap <leader>tp :YcmCompleter GetType<CR>

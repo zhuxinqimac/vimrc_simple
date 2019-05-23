@@ -57,9 +57,6 @@ if $COLORTERM == 'gnome-terminal'
     set t_Co=256
 endif
 
-" ==== CommandT
-nmap <leader>t :CommandT<CR>
-
 " ==== Python syntax
 let g:python_highlight_all = 1
 let g:python_highlight_space_errors = 0

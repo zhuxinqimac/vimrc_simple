@@ -1,5 +1,5 @@
-# vimrc_mine
-My simple but powerful vimrc config.
+# vimrc_simple
+Simpler version of vimrc_mine config.
 
 ## usage
 Make dir:
@@ -30,21 +30,3 @@ Insert the following line to ~/.tmux.conf:
 ```
 setw -g mode-keys vi
 ```
-
-## PS: install ruby support in vim (for CommandT plugin)
-Use the following line:
-```
-sudo apt-get install ruby vim-nox
-```
-
-## PS: if CommandT still doesn't work
-Go to the CommandT plugin directory, type 
-```
-sudo apt-get install rake
-rake make
-```
-If it shows error related to "ruby-dev", do
-```
-sudo apt-get install ruby-dev
-```
-Then rake make again.

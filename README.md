@@ -10,7 +10,7 @@ cd .vim
 ```
 Clone recursively from this repository:
 ```
-git clone --recurse-submodules https://github.com/zhuxinqimac/vimrc_mine.git .
+git clone --recurse-submodules git@github.com:zhuxinqimac/vimrc_simple.git .
 ```
 Link config file to ~/.vimrc. Absolute paths may be required:
 ```

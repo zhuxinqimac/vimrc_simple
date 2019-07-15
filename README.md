@@ -23,6 +23,10 @@ and insert the following line to ~/.tmux.conf:
 ```
 set -g default-terminal "screen-256color"
 ```
+and add the following line to ~/.bashrc:
+```
+export TERM=screen-256color
+```
 Then restart tmux.
 
 ## PS: bring vim nav keys to tmux:
